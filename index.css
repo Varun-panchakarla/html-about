@@ -1,0 +1,37 @@
+form{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    size: 40vh;
+    gap: 10px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+#submit{
+    background-color: wheat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    width: 90px;
+}
+#username{
+    border-radius: 30px;
+    height: 30px;
+    text-align: center;
+    
+}
+#password{
+    border-radius: 20px;
+    height: 30px;
+    text-align: center;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 30vh;
+}
+body{
+    background-color: aqua;
+}
